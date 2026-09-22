@@ -1,6 +1,6 @@
 # Environment / secrets
 .env
-application.properties
+
 
 # IntelliJ IDEA
 .idea/
