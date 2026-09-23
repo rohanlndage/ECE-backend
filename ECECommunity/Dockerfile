@@ -2,7 +2,8 @@ FROM maven:3.9.11-eclipse-temurin-21
 
 WORKDIR /app
 
-COPY ECECommunity/ .
+COPY ECECommunity/pom.xml ./pom.xml
+COPY ECECommunity/src ./src
 
 RUN mvn clean package -DskipTests
 
